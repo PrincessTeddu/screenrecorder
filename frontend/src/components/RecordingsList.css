@@ -1,0 +1,146 @@
+.recordings-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.recordings-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.refresh-button {
+  background-color: #2196F3;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.refresh-button:hover {
+  background-color: #0b7dda;
+}
+
+.recordings-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.recording-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recording-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+  word-break: break-all;
+}
+
+.recording-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.recording-actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.play-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.play-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.video-player {
+  margin-top: 15px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.video-info {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 0 0 4px 4px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.video-info p {
+  margin: 0;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error-message {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2dede;
+  color: #a94442;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.no-recordings {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.no-recordings h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.no-recordings p {
+  color: #666;
+}
+
+@media (min-width: 768px) {
+  .recordings-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
