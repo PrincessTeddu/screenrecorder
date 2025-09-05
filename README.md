@@ -2,6 +2,9 @@
 
 A web application that allows users to record their screen with microphone audio, preview the recording, download it, and upload it to a backend server. The application is built using the MERN stack (MySQL, Express, React, Node.js).
 
+## frontend: (https://7pm3qw6h-3000.inc1.devtunnels.ms/)
+## backend: (https://7pm3qw6h-5000.inc1.devtunnels.ms/)
+
 ## Features
 
 - **Screen Recording**: Record your active browser tab with microphone audio
@@ -63,6 +66,8 @@ A web application that allows users to record their screen with microphone audio
    npm run dev
    ```
 
+5. Open your browser and navigate to `http://localhost:5000`
+
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
@@ -80,7 +85,7 @@ A web application that allows users to record their screen with microphone audio
    npm start
    ```
 
-4. Open your browser and navigate to `http://localhost:3000`
+4. Open your browser and navigate to `http://localhost:3000` 
 
 ## Usage
 
