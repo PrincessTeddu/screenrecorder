@@ -63,7 +63,7 @@ A web application that allows users to record their screen with microphone audio
    npm run dev
    ```
 
-5. Open your browser and navigate to `(http://localhost:5000)`
+5. Open your browser and navigate to (http://localhost:5000)
 
 ### Frontend Setup
 
@@ -82,7 +82,7 @@ A web application that allows users to record their screen with microphone audio
    npm start
    ```
 
-4. Open your browser and navigate to `(http://localhost:3000)` 
+4. Open your browser and navigate to (http://localhost:3000)
 
 ## Usage
 
